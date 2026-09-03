@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double findMaxAverage(int nums[], int n, int k) {
+double MaxAverage(int nums[], int n, int k) {
     int sum = 0;
 
     for (int i = 0; i < k; i++) {
@@ -25,7 +25,7 @@ int main() {
     int n = 6;
     int k = 4;
 
-    double result = findMaxAverage(nums, n, k);
+    double result = MaxAverage(nums, n, k);
 
     printf("Maximum Average = %.5f\n", result);
 
